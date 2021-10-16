@@ -1089,10 +1089,10 @@ F 3 "~" H 10450 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H5
 U 1 1 61B53291
 P 10450 3450
-F 0 "H?" H 10550 3496 50  0000 L CNN
+F 0 "H5" H 10550 3496 50  0000 L CNN
 F 1 "MountingHole" H 10550 3405 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 10450 3450 50  0001 C CNN
 F 3 "~" H 10450 3450 50  0001 C CNN
@@ -1100,14 +1100,36 @@ F 3 "~" H 10450 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H6
 U 1 1 61B5DF94
 P 10450 3650
-F 0 "H?" H 10550 3696 50  0000 L CNN
+F 0 "H6" H 10550 3696 50  0000 L CNN
 F 1 "MountingHole" H 10550 3605 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 10450 3650 50  0001 C CNN
 F 3 "~" H 10450 3650 50  0001 C CNN
 	1    10450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61B73C7B
+P 10450 4150
+F 0 "H?" H 10550 4196 50  0000 L CNN
+F 1 "MountingHole" H 10550 4105 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 10450 4150 50  0001 C CNN
+F 3 "~" H 10450 4150 50  0001 C CNN
+	1    10450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61B741F5
+P 10450 4350
+F 0 "H?" H 10550 4396 50  0000 L CNN
+F 1 "MountingHole" H 10550 4305 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 10450 4350 50  0001 C CNN
+F 3 "~" H 10450 4350 50  0001 C CNN
+	1    10450 4350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
